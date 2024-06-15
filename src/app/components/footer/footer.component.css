@@ -1,0 +1,33 @@
+.footer-wrapper {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright-text{
+    padding: 24px 8px;
+}
+
+.footer-social {
+    display: flex;
+    gap: 16px;
+    padding: 0 8px;
+}
+
+.social-anchor {
+    display: flex;
+    gap: 4px;
+    text-decoration: none;
+    color: purple;
+    cursor: pointer;
+    align-items: center;
+}
+.social-svg {
+    height: 16px;
+    width: 16px;
+}
+.social-text {
+    font-size: 16px;
+
+}
