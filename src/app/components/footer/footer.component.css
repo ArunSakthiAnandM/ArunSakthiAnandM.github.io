@@ -1,33 +1,32 @@
 .footer-wrapper {
-    background-color: var(--background-primary);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  background-color: var(--background-primary);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.copyright-text{
-    padding: 24px 8px;
+.copyright-text {
+  padding: 24px 8px;
 }
 
 .footer-social {
-    display: flex;
-    gap: 16px;
-    padding: 0 8px;
+  display: flex;
+  gap: 16px;
+  padding: 0 8px;
 }
 
 .social-anchor {
-    display: flex;
-    gap: 4px;
-    text-decoration: none;
-    color: var(--link-primary);
-    cursor: pointer;
-    align-items: center;
+  display: flex;
+  gap: 4px;
+  text-decoration: none;
+  color: var(--link-primary);
+  cursor: pointer;
+  align-items: center;
 }
 .social-svg {
-    height: 16px;
-    width: 16px;
+  height: 16px;
+  width: 16px;
 }
 .social-text {
-    font-size: 16px;
-
+  font-size: 16px;
 }
