@@ -2,6 +2,11 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+
+    /* Variables */
+    --font-primary: #000;
+    --link-primary: #800080;
+    --background-primary: #f0f8ff;
 }
 
 .contain-element {
