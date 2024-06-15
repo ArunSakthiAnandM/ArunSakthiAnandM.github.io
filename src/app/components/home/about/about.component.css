@@ -1,0 +1,72 @@
+.about-wrapper {
+  position: relative;
+}
+
+.background-image {
+  opacity: 0.85;
+  display: block;
+  width: 100%;
+  height: calc(100vh - 78px);
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.about-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  height: calc(100vh - 78px);
+  min-width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-banner-main {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  color: var(--background-primary);
+}
+
+.name {
+  font-size: 56px;
+}
+
+.designaton {
+  font-size: 24px;
+}
+
+.resume-anchor {
+  font-size: 12px;
+  border: 1px solid var(--background-secondary);
+  padding: 8px 16px;
+  border-radius: 150px;
+  cursor: pointer;
+  transition: 300ms ease;
+  margin: 0 auto;
+}
+.resume-anchor:hover {
+  background-color: var(--background-primary);
+  color: var(--background-secondary);
+}
+
+.down-arrow {
+  height: 24px;
+  width: 24px;
+  fill: var(--background-primary);
+  top: 50%;
+  left: 50%;
+  transform: translate(0, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transition: 0.3s ease;
+}
+.down-arrow:hover {
+  cursor: pointer;
+  height: 32px;
+  width: 32px;
+}

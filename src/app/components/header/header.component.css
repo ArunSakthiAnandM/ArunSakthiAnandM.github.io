@@ -11,12 +11,12 @@
 .header-menu {
   display: flex;
   gap: 24px;
-  padding: 24px 8px;
+  padding: 24px 16px;
 }
 
 .menu-option {
   text-decoration: none;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 125%;
-  color: var(--text-primary);
+  color: var(--header-text);
 }

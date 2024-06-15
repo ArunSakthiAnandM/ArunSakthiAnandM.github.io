@@ -1,0 +1,25 @@
+.aboutme-container {
+  padding: 48px 48px 48px 8px;
+  display: flex;
+  gap: 48px;
+  width: 700px;
+  margin: 0 auto;
+}
+
+.aboutme-heading-container {
+  max-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutme-image {
+  width: 220px;
+  border-radius: 100%;
+}
+
+.aboutme-content {
+  font-size: 16px;
+  font-weight: 300;
+}

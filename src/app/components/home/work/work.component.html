@@ -1,0 +1,12 @@
+<div class="work-wrapper contain-element">
+  <p>Experience and Achievements</p>
+  <div class="timeline-container">
+    @for (item of experience; track $index) {
+    <div>{{ item.title }}</div>
+    <div>{{ item.subTitle }}</div>
+    <div>{{ item.start }}</div>
+    <div>{{ item.end }}</div>
+    <div>{{ item.desc }}</div>
+    }
+  </div>
+</div>
