@@ -1,1 +1,51 @@
-<p>blogs works!</p>
+<div class="contain-element">
+  <p class="blogs-intro lato-regular">
+    I don't write usually, but here it goes... (Read in-order for better
+    experience😉)
+  </p>
+  <hr />
+  <div class="blogs-list">
+    @for (item of itemsList; track $index) {
+    <div class="blog-item">
+      <div
+        class="blog-title lato-bold"
+        (click)="blogContent.classList.toggle('hide')"
+      >
+        {{ item.title }}
+      </div>
+      <div #blogContent class="blog-content hide">
+        <div class="blog-image-container">
+          @for (image of item.imagePaths; track $index) {
+          <img
+            class="blog-image"
+            src="{{ image }}"
+            alt="pic{{ item.imagePaths.length }}"
+          />
+          }
+        </div>
+        <ul class="blog-description-container">
+          @for (desc of item.description; track $index) {
+          <li class="blog-description-point">
+            <p class="description-point-head lato-light">
+              {{ desc.heading }}
+            </p>
+            <p class="description-point-content lato-regular">
+              {{ desc.content }}
+            </p>
+          </li>
+          }
+          <p class="point-outro">{{ item.conclusion }}</p>
+        </ul>
+      </div>
+    </div>
+    }
+  </div>
+  <hr />
+  <p class="blogs-outro lato-regular">
+    Thanks to all the amazing people in my life. Thanks to all the good, bad and
+    worse moments that made me the man I am today.
+    <br />
+    And most importantly, thanks to ChatGPT and Grammerly for their contribution
+    to my blogs.
+  </p>
+</div>
