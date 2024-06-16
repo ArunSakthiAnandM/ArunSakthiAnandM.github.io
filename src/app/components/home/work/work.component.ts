@@ -1,5 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-import { experience } from '../../../../../public/data/experience';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-work',
@@ -8,8 +7,10 @@ import { experience } from '../../../../../public/data/experience';
   templateUrl: './work.component.html',
   styleUrl: './work.component.css',
 })
-export class WorkComponent implements OnInit {
+export class WorkComponent {
   constructor() {}
-  experience = experience;
-  ngOnInit(): void {}
+
+  @Input() itemsList: any;
+  @Input() showDesc: boolean | undefined;
+  @Input() header: string | undefined;
 }
