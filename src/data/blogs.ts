@@ -1,4 +1,6 @@
-export const blogs = [
+import { Blog } from './data.model';
+
+export const blogs: Array<Blog> = [
   {
     id: 17,
     title: 'Delhi-Agra Trip',

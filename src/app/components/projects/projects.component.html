@@ -1,1 +1,12 @@
-<p>projects works!</p>
+<div class="contain-element">
+  <p class="projects-intro">Here are some of my projects...</p>
+  <hr />
+  <div class="projects-container">
+    @for (item of itemsList; track $index) {
+    <div class="project-container">
+      <p>{{ item.title }}</p>
+      <a href="{{ item.link }}">Source code</a>
+    </div>
+    }
+  </div>
+</div>

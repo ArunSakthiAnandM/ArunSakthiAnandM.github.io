@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { blogs } from '../../../../public/data/blogs';
+import { blogs } from '../../../data/blogs';
 
 @Component({
   selector: 'app-blogs',

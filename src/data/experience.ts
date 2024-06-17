@@ -1,4 +1,6 @@
-export const experience = [
+import { Experience } from './data.model';
+
+export const experience: Array<Experience> = [
   {
     title: 'Air India',
     subTitle: 'Full-Stack Developer',

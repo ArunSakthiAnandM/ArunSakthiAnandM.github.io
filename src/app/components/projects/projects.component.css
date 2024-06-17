@@ -1,0 +1,11 @@
+.projects-intro {
+  padding: 24px;
+}
+
+.projects-container {
+  width: 768px;
+  margin: 24px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}

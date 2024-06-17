@@ -1,4 +1,6 @@
-export const education = [
+import { Education } from './data.model';
+
+export const education: Array<Education> = [
   {
     title: 'IIT Hyderabad',
     subTitle: 'UG in Electrical Engineering',
@@ -21,10 +23,3 @@ export const education = [
     link: 'https://www.senthilpublicschoolsalem.in/',
   },
 ];
-// {
-//     title: '',
-//     subTitle: '',
-//     start: '',
-//     end: '',
-//     link: '',
-//   }

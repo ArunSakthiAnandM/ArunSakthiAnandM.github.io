@@ -2,8 +2,8 @@ import { Component } from '@angular/core';
 import { AboutmeComponent } from './aboutme/aboutme.component';
 import { AboutComponent } from './about/about.component';
 import { WorkComponent } from './work/work.component';
-import { experience } from '../../../../public/data/experience';
-import { education } from '../../../../public/data/education';
+import { education } from '../../../data/education';
+import { experience } from '../../../data/experience';
 
 @Component({
   selector: 'app-home',
