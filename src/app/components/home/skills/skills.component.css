@@ -1,0 +1,39 @@
+.skills-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.heading {
+  font-size: 36px;
+  align-self: center;
+  padding: 24px;
+  color: var(--text-secondary);
+}
+
+.skills-container {
+  width: 768px;
+  margin: 0 auto;
+  margin-bottom: 48px;
+}
+
+.skills-title {
+  font-size: 24px;
+  font-style: italic;
+  color: var(--header-text);
+  margin-bottom: 8px;
+}
+
+.skill-set {
+  display: flex;
+  gap: 8px;
+  width: fit-content;
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+
+.skill {
+  display: inline;
+  padding: 4px 8px;
+  background-color: var(--background-grey);
+}

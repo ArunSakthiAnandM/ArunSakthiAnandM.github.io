@@ -1,0 +1,15 @@
+<div class="skills-wrapper contain-element">
+  <p class="heading lato-regular">Skills</p>
+  <div class="skills-container">
+    <div class="skill-container">
+      @for (item of skillsList; track $index) {
+      <p class="skills-title lato-light">{{ item.title }}</p>
+      <div class="skill-set">
+        @for (item of item.skills; track $index) {
+        <p class="skill lato-regular">{{ item }}</p>
+        }
+      </div>
+      }
+    </div>
+  </div>
+</div>
