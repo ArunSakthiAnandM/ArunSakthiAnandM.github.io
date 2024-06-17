@@ -1,11 +1,22 @@
 <div class="contain-element">
-  <p class="projects-intro">Here are some of my projects...</p>
-  <hr />
   <div class="projects-container">
     @for (item of itemsList; track $index) {
     <div class="project-container">
-      <p>{{ item.title }}</p>
-      <a href="{{ item.link }}">Source code</a>
+      <div class="title-container">
+        <p class="project-title lato-bold">{{ item.title }}</p>
+        <p class="project-timeline">{{ item.timeline }}</p>
+      </div>
+      <div class="content-container">
+        <p class="project-desc">{{ item.desc }}</p>
+        <div class="skill-container">
+          @for (item of item.skills; track $index) {
+          <p class="project-skill">{{ item }}</p>
+          }
+        </div>
+        <a class="source-code" href="{{ item.link }}" target="_blank"
+          >Source code</a
+        >
+      </div>
     </div>
     }
   </div>

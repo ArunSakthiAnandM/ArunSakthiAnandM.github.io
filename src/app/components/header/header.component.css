@@ -11,12 +11,26 @@
 .header-menu {
   display: flex;
   gap: 24px;
-  padding: 24px 16px;
+  padding: 22px 16px 20px 16px;
 }
 
 .menu-option {
   text-decoration: none;
   font-size: 20px;
-  line-height: 125%;
+  line-height: 150%;
   color: var(--header-text);
+}
+
+.active-link-locator {
+  border: 2px solid var(--header-text);
+  border-radius: 2px;
+  transition: 0.3s ease;
+}
+
+.hide {
+  display: none;
+}
+
+.active-link .hide {
+  display: block;
 }

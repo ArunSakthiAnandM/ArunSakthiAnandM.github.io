@@ -58,8 +58,8 @@
 }
 
 .down-arrow {
-  height: 24px;
-  width: 24px;
+  height: 28px;
+  width: 28px;
   fill: var(--background-primary);
   top: 50%;
   left: 50%;
@@ -69,6 +69,6 @@
 }
 .down-arrow:hover {
   cursor: pointer;
-  height: 32px;
-  width: 32px;
+  height: 36px;
+  width: 36px;
 }

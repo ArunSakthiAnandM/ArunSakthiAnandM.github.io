@@ -1,11 +1,52 @@
-.projects-intro {
-  padding: 24px;
-}
-
 .projects-container {
   width: 768px;
   margin: 24px auto;
   display: flex;
   flex-direction: column;
   gap: 24px;
+}
+
+.project-container {
+  border-radius: 4px;
+  border-bottom: 1px solid var(--header-text);
+}
+
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--header-text);
+  padding: 20px;
+  border-radius: 4px;
+  color: var(--background-primary);
+}
+
+.content-container {
+  background-color: var(--background-primary);
+}
+
+.project-desc {
+  padding: 12px 24px;
+}
+
+.skill-container {
+  display: flex;
+  gap: 8px;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.project-skill {
+  padding: 4px 8px;
+  background-color: var(--background-grey);
+}
+
+.source-code {
+  display: block;
+  padding: 16px 8px;
+  width: fit-content;
+  margin: 0 auto;
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--background-secondary);
 }

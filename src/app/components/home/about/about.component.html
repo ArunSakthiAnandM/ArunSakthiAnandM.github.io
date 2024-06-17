@@ -5,14 +5,21 @@
     <div class="about-banner-main">
       <h1 class="name lato-black">ARUN SAKTHI ANAND</h1>
       <h2 class="designation lato-bold">Full-Stack Dev at Air India</h2>
-      <a class="resume-anchor lato-regular" routerLink="/cv">View Resume</a>
+      <a
+        class="resume-anchor lato-regular"
+        href="https://github.com/ArunSakthiAnandM/ArunSakthiAnandM.github.io/blob/main/public/Arun_Resume.pdf"
+        target="_blank"
+        >View Resume</a
+      >
     </div>
     <svg
       class="down-arrow"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 512 512"
+      (click)="scroll(target)"
     >
       <path
+        #target
         d="M256 0a256 256 0 1 0 0 512A256 256 0 1 0 256 0zM135 241c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l87 87 87-87c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9L273 345c-9.4 9.4-24.6 9.4-33.9 0L135 241z"
       />
     </svg>
