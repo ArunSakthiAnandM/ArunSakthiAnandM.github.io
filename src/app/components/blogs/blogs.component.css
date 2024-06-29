@@ -7,7 +7,7 @@
   display: flex;
   flex-direction: column-reverse;
   gap: 8px;
-  width: 768px;
+  width: calc(min(768px, 100vw - 16px));
   margin: 8px auto;
 }
 
@@ -38,21 +38,6 @@
 
 .hide {
   display: none;
-}
-
-.blog-image-container {
-  max-width: 752px;
-  overflow: auto;
-  margin: 0 auto;
-  margin-top: 8px;
-  display: flex;
-  gap: 8px;
-  align-items: center;
-}
-.blog-image {
-  height: 128px;
-  width: auto;
-  transition: 0.3s ease;
 }
 
 .blog-description-container {

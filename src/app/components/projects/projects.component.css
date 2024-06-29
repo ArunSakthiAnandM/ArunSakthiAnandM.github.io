@@ -1,5 +1,5 @@
 .projects-container {
-  width: 768px;
+  width: calc(min(768px, 100vw - 16px));
   margin: 24px auto;
   display: flex;
   flex-direction: column;
@@ -30,14 +30,14 @@
 }
 
 .skill-container {
-  display: flex;
-  gap: 8px;
-  width: fit-content;
   margin: 0 auto;
+  text-align: center;
 }
 
 .project-skill {
+  display: inline-block;
   padding: 4px 8px;
+  margin: 4px 8px;
   background-color: var(--background-grey);
 }
 

@@ -14,15 +14,6 @@
         {{ item.title }}
       </div>
       <div #blogContent class="blog-content hide">
-        <div class="blog-image-container">
-          @for (image of item.imagePaths; track $index) {
-          <img
-            class="blog-image"
-            src="{{ image }}"
-            alt="pic{{ item.imagePaths.length }}"
-          />
-          }
-        </div>
         <ul class="blog-description-container">
           @for (desc of item.description; track $index) {
           <li class="blog-description-point">
