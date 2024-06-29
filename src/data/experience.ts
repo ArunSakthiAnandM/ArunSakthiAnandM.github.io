@@ -7,10 +7,7 @@ export const experience: Array<Experience> = [
     start: 'June 2024',
     end: 'Present',
     link: 'https://www.airindia.com/',
-    desc: [
-      'Increased the lighthouse performance of the Air India website by redesigning components in StencilJS',
-      'Designed a report generator that continously observes the performance of the web pages of Air India',
-    ],
+    desc: ['Working with Springboot and Angular in the web team of Air India'],
   },
   {
     title: 'Air India',
@@ -18,7 +15,10 @@ export const experience: Array<Experience> = [
     start: 'June 2023',
     end: 'June 2024',
     link: 'https://www.airindia.com/',
-    desc: ['Working with Springboot and Angular in the web team of Air India'],
+    desc: [
+      'Increased the lighthouse performance of the Air India website by redesigning components in StencilJS',
+      'Designed a report generator that continously observes the performance of the web pages of Air India',
+    ],
   },
   {
     title: 'KPIT Technologies',
