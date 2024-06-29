@@ -2,8 +2,14 @@
   padding: 48px 48px 48px 8px;
   display: flex;
   gap: 48px;
-  width: 700px;
+  width: calc(min(700px, 100vw));
   margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .aboutme-container {
+    flex-direction: column;
+    padding: 32px;
+  }
 }
 
 .aboutme-heading-container {

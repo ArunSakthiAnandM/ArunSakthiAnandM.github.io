@@ -5,6 +5,13 @@
   align-items: center;
 }
 
+@media (max-width: 768px) {
+  .footer-wrapper {
+    flex-direction: column;
+    margin-bottom: 24px;
+  }
+}
+
 .copyright-text {
   padding: 24px 8px;
 }

@@ -12,7 +12,7 @@
 }
 
 .skills-container {
-  width: 768px;
+  width: calc(min(768px, calc(100vw - 32px)));
   margin: 0 auto;
   margin-bottom: 48px;
 }
@@ -25,15 +25,14 @@
 }
 
 .skill-set {
-  display: flex;
-  gap: 8px;
-  width: fit-content;
+  width: calc(min(768px, calc(100vw - 32px)));
   margin: 0 auto;
   margin-bottom: 16px;
 }
 
 .skill {
-  display: inline;
+  display: inline-block;
   padding: 4px 8px;
   background-color: var(--background-grey);
+  margin: 16px 8px;
 }

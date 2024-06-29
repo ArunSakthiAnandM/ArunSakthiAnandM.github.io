@@ -1,5 +1,6 @@
 .header-wrapper {
   background-color: var(--background-primary);
+  position: fixed;
 }
 
 .header-container {
