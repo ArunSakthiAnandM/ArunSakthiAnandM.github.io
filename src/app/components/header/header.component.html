@@ -1,5 +1,58 @@
 <div class="header-wrapper contain-element">
   <div class="header-container">
+    <div class="mobile-header-menu">
+      <div
+        class="mobile-header-svg-container"
+        (click)="onMobileHeaderClick($event)"
+      >
+        <svg
+          class="mobile-header-svg"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 448 512"
+        >
+          <path
+            d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
+          />
+        </svg>
+      </div>
+      <div class="mobile-header-list-container hide-mobile lato-black">
+        <a
+          class="mobile-menu-option"
+          routerLink="/home"
+          routerLinkActive="active-link"
+          (click)="onMobileHeaderClick($event)"
+          >About</a
+        >
+        <a
+          class="mobile-menu-option"
+          routerLink="/blogs"
+          routerLinkActive="active-link"
+          (click)="onMobileHeaderClick($event)"
+          >Blogs</a
+        >
+        <a
+          class="mobile-menu-option"
+          routerLink="/teachings"
+          routerLinkActive="active-link"
+          (click)="onMobileHeaderClick($event)"
+          >Teachings</a
+        >
+        <a
+          class="mobile-menu-option"
+          routerLink="/certifications"
+          routerLinkActive="active-link"
+          (click)="onMobileHeaderClick($event)"
+          >Certifications</a
+        >
+        <a
+          class="mobile-menu-option"
+          routerLink="/projects"
+          routerLinkActive="active-link"
+          (click)="onMobileHeaderClick($event)"
+          >Projects</a
+        >
+      </div>
+    </div>
     <div class="header-menu lato-black">
       <a class="menu-option" routerLink="/home" routerLinkActive="active-link"
         >About
@@ -34,4 +87,4 @@
   </div>
 </div>
 
-<hr />
+<hr class="header-hr" />

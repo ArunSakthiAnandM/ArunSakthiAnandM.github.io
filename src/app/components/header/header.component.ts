@@ -8,4 +8,12 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
   templateUrl: './header.component.html',
   styleUrl: './header.component.css',
 })
-export class HeaderComponent {}
+export class HeaderComponent {
+  onMobileHeaderClick(e: Event) {
+    const mobileHeaderList = document.getElementsByClassName(
+      'mobile-header-list-container'
+    );
+    console.log(mobileHeaderList);
+    mobileHeaderList[0].classList.toggle('hide-mobile');
+  }
+}
