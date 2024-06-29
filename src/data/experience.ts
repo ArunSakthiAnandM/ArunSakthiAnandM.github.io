@@ -3,9 +3,20 @@ import { Experience } from './data.model';
 export const experience: Array<Experience> = [
   {
     title: 'Air India',
-    subTitle: 'Full-Stack Developer',
-    start: 'June 2023',
+    subTitle: 'Lead Engineer',
+    start: 'June 2024',
     end: 'Present',
+    link: 'https://www.airindia.com/',
+    desc: [
+      'Increased the lighthouse performance of the Air India website by redesigning components in StencilJS',
+      'Designed a report generator that continously observes the performance of the web pages of Air India',
+    ],
+  },
+  {
+    title: 'Air India',
+    subTitle: 'Graduate Engineer Trainee',
+    start: 'June 2023',
+    end: 'June 2024',
     link: 'https://www.airindia.com/',
     desc: ['Working with Springboot and Angular in the web team of Air India'],
   },
