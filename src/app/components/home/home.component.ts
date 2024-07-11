@@ -5,6 +5,7 @@ import { WorkComponent } from './work/work.component';
 import { education } from '../../../data/education';
 import { experience } from '../../../data/experience';
 import { SkillsComponent } from './skills/skills.component';
+import { extras } from '../../../data/extra';
 
 @Component({
   selector: 'app-home',
@@ -16,4 +17,5 @@ import { SkillsComponent } from './skills/skills.component';
 export class HomeComponent {
   experience = experience;
   education = education;
+  extras = extras;
 }
