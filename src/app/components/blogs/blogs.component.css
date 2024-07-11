@@ -19,13 +19,13 @@
 .blog-title {
   padding: 12px;
   border-radius: 4px;
-  background-color: var(--header-text);
-  color: var(--background-primary);
+  background-color: var(--blue-normal);
+  color: var(--blue-light);
   cursor: pointer;
   transition: 0.3s ease;
 }
 .blog-title:hover {
-  color: var(--background-secondary);
+  color: var(--blue-dark);
 }
 
 .blog-content {
@@ -49,13 +49,13 @@
 }
 
 .description-point-head {
-  color: var(--header-text);
+  color: var(--blue-normal);
   font-style: italic;
   line-height: 150%;
 }
 
 .description-point-content {
-  color: var(--text-secondary);
+  color: var(--grey-dark);
   font-size: 14px;
   line-height: 20px;
 }

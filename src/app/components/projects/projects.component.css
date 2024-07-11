@@ -8,21 +8,21 @@
 
 .project-container {
   border-radius: 4px;
-  border-bottom: 1px solid var(--header-text);
+  border-bottom: 1px solid var(--blue-normal);
 }
 
 .title-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--header-text);
+  background-color: var(--blue-normal);
   padding: 20px;
   border-radius: 4px;
-  color: var(--background-primary);
+  color: var(--blue-light);
 }
 
 .content-container {
-  background-color: var(--background-primary);
+  background-color: var(--blue-light);
 }
 
 .project-desc {
@@ -38,7 +38,7 @@
   display: inline-block;
   padding: 4px 8px;
   margin: 4px 8px;
-  background-color: var(--background-grey);
+  background-color: var(--grey-light);
 }
 
 .source-code {
@@ -48,5 +48,5 @@
   margin: 0 auto;
   text-decoration: none;
   cursor: pointer;
-  color: var(--background-secondary);
+  color: var(--blue-dark);
 }

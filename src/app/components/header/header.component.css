@@ -1,5 +1,5 @@
 .header-wrapper {
-  background-color: var(--background-primary);
+  background-color: var(--blue-light);
   position: fixed;
   z-index: 9;
 }
@@ -33,11 +33,11 @@
   text-decoration: none;
   font-size: 20px;
   line-height: 150%;
-  color: var(--header-text);
+  color: var(--blue-normal);
 }
 
 .active-link-locator {
-  border: 2px solid var(--header-text);
+  border: 2px solid var(--blue-normal);
   border-radius: 2px;
   transition: 0.3s ease;
 }
@@ -58,7 +58,7 @@
 .mobile-header-svg {
   width: 32px;
   height: 32px;
-  fill: var(--header-text);
+  fill: var(--blue-normal);
 }
 
 .mobile-header-list-container {
@@ -66,7 +66,7 @@
   width: 144px;
   display: flex;
   flex-direction: column;
-  background-color: var(--background-primary);
+  background-color: var(--blue-light);
   transform: translate(-64px, 0);
   transition: 0.3s ease;
 }
@@ -74,15 +74,15 @@
 .mobile-menu-option {
   text-decoration: none;
   padding: 16px;
-  border-bottom: 1px solid var(--header-text);
-  color: var(--header-text);
+  border-bottom: 1px solid var(--blue-normal);
+  color: var(--blue-normal);
   transition: 0.3s ease;
 }
 
 @media (max-width: 768px) {
   .active-link {
-    background-color: var(--header-text);
-    color: var(--background-primary);
+    background-color: var(--blue-normal);
+    color: var(--blue-light);
   }
 }
 
