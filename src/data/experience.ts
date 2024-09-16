@@ -7,7 +7,9 @@ export const experience: Array<Experience> = [
     start: 'June 2024',
     end: 'Present',
     link: 'https://www.airindia.com/',
-    desc: ['Working with Springboot and Angular in the web team of Air India'],
+    desc: [
+      'Migrated Air India website’s front-end from Angular 14 to Angular 18. Enhanced website performance by approximately 10% in Lighthouse reports and reduced bundle size by 20% by optimizing code, implementing efficient coding practices, and leveraging Angular 18’s advanced features',
+    ],
   },
   {
     title: 'Air India',
@@ -16,8 +18,8 @@ export const experience: Array<Experience> = [
     end: 'June 2024',
     link: 'https://www.airindia.com/',
     desc: [
-      'Increased the lighthouse performance of the Air India website by redesigning components in StencilJS',
-      'Designed a report generator that continously observes the performance of the web pages of Air India',
+      'Developed parts of search widget component for Air India’s homepage, utilizing StencilJS for component creation and AEM for deployment, enhancing site functionality and user search experience.',
+      'Developed the back-end for a report generator to assess the performance of Air India’s websites, utilizing Node.js for development and deploying the solution as an Azure Functions app to ensure scalability and efficient performance monitoring',
     ],
   },
   {
