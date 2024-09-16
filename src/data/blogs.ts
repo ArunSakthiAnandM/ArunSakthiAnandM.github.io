@@ -95,29 +95,88 @@ export const blogs: Array<Blog> = [
   {
     id: 4,
     title: 'COVID and the Lost days of Lockdown',
-    description: [{ heading: 'Stay Tuned', content: 'Coming Soon' }],
+    description: [
+      { heading: 'Expectation vs Reality', content: 'Coming Soon' },
+      { heading: '', content: '' },
+    ],
     conclusion: '',
     imagePaths: [],
   },
   {
     id: 3,
     title: 'Inter-IIT Sports Meet 2019',
-    description: [{ heading: 'Stay Tuned', content: 'Coming Soon' }],
-    conclusion: '',
+    description: [
+      {
+        heading: 'How it started',
+        content:
+          "Sports had always been a significant part of my life. Growing up, I was an avid fan of football and cricket. However, when I arrived at IIT Hyderabad, I wanted to explore something new. That's when I decided to try my hand at hockey. Looking back, choosing to learn and play hockey remains one of the best decisions I've made.",
+      },
+      {
+        heading: 'Discovering Hockey',
+        content:
+          "The game was entirely new to me, and I had to start from scratch. But hockey was very close to football with its general terms of play, but was different in it's own way. It was a chance to start afresh, learn new skills, and immerse myself in a sport that was different from what I had known before.",
+      },
+      {
+        heading: 'Coach Vikram',
+        content:
+          "One of the first people who made my journey into hockey enjoyable was Coach Vikram. From the moment I met him, it was clear that he was not just a coach but a mentor who genuinely cared about his players. Coach Vikram's approach was both encouraging and constructive.",
+      },
+      {
+        heading: 'A New Circle of Friends',
+        content:
+          'As I got more involved in hockey, I found myself forming a new group of close friends, all united by our love for the game. The friendships I developed here became another pillar of support during my time at IIT Hyderabad. We celebrated victories together (yeah, sometimes), and worked through losses (mostly).',
+      },
+      {
+        heading: 'December 2019',
+        content:
+          "The winter vacation of December brought with it a highly anticipated event—the Inter-IIT Sports Meet. Our journey to IIT Kharagpur began with a train ride that was as long as it was memorable. Being one of the youngest sthlete in the squad, I was put through some intense 'interaction sessions' througout the journey",
+      },
+      {
+        heading: 'Tournament Begins',
+        content:
+          'Arriving at IIT Kharagpur, we were greeted by a flurry of activity and the unmistakable energy of a major sports event. Our team was eager to make a mark, and our first challenge was to navigate the group stages. We faced several teams, including IIT Mandi, and after a series of intense matches, we managed to qualify for the quarterfinals.',
+      },
+      {
+        heading: 'Quarterfinals: A Humbling Experience',
+        content:
+          'However, our journey in the tournament was about to face a major challenge. The quarterfinal match was against the hosts, IIT Kharagpur. The match ended with a 0-4 defeat, and it was a humbling experience for all of us. The loss was a tough pill to swallow, but it was also a valuable lesson in sportsmanship. We had faced a team that was well-prepared and highly motivated.',
+      },
+    ],
+    conclusion: 'Breathe, Bleed, aand Battle',
     imagePaths: [],
   },
   {
     id: 2,
     title: 'Week 1 @IIT Hyderabad',
     description: [
-      { heading: 'Day 1', content: 'Coming Soon' },
-      { heading: 'Orientation', content: '' },
-      { heading: 'Batchmates', content: '' },
-      { heading: 'Seniors', content: '' },
-      { heading: 'Hostel', content: '' },
-      { heading: '', content: '' },
+      {
+        heading: 'Day 1',
+        content:
+          'The day had finally come. I found myself standing in front of the gates of IIT Hyderabad (figuratively, as the gates werent constructed yet). For the first time in my life, I was leaving the comfort of home and stepping into the world on my own—living in a hostel, surrounded by strangers who would soon become friends. After the formalities of check-in, I settled into my room.',
+      },
+      {
+        heading: 'Orientation',
+        content:
+          'After the fist day, there was a week of orientation programs. There was an informal orientation where the seniors "Interacted" with us for a fun-filled couple of hours in a common room, and what followed was an ice-breaking session that none of us would soon forget.',
+      },
+      {
+        heading: 'Batchmates',
+        content:
+          "Looking back now, after more than five years, I absolutely don't remember how we all became close, but the friendships themselves remain strong. Some of the bonds formed were almost instantaneous, while others took time to grow. The first group I gravitated towards was, unsurprisingly, those who shared my mother tongue—Tamil. We didn't need an elaborate reason to connect. The familiar language created an unspoken bond. Then there was my second group, my Electrical Engineering (EE) batchmates, who I'll call The Dope Squad, became another close circle of friends. At first, we were all trying to figure out some ways to tackle this notoriously challenging course, and we leaned on each other for notes, explanations, and sometimes, assignments :)",
+      },
+      {
+        heading: 'Seniors',
+        content:
+          'At IITH, my batch wasn\'t spared from the age-old tradition of "Interaction sessions", but it was all in good fun, and over time, these seniors became some of the closest people in my life. At first, the idea of being ragged felt daunting. We had all heard stories—some exaggerated, others downright terrifying. But what we experienced was far from the horror tales we\'d imagined. Yes, they put us through some playful interactions, but it was always with a sense of care.',
+      },
+      {
+        heading: 'First lecture (and the unforgettable second)',
+        content:
+          "Academics in IIT Hyderabad began with a lecture on calculus, taught by Professor X. If Professor X's class was a warm welcome, the next lecture was a cold splash of reality by Professor Y, a professor known for his no-nonsense attitude and high expectations. His reputation preceded him, and it was clear that he meant business. To our astonishment, Professor Y announced that he would be conducting an exam right then and there. The entire class was caught off guard. The results were nothing short of brutal. Almost everyone got a zero. Somehow, I had managed to score a 10 on 10 (Yes, am bragging). I took it as a small victory in an otherwise humbling experience.",
+      },
     ],
-    conclusion: '',
+    conclusion:
+      "Whenever, wherever We're meant to be together I'll be there, and you'll be near And that's the deal, my dear",
     imagePaths: [],
   },
   {
@@ -142,12 +201,12 @@ export const blogs: Array<Blog> = [
       {
         heading: 'Passion for Sports',
         content:
-          'In my early years, I was an avid cricket enthusiast. However, as I grew older, my interests shifted towards football. Around 2010, I became an ardent fan of FC Barcelona. The team’s style of play, the skills of players like Lionel Messi, and the spirit of the game captivated me. Football became more than just a hobby; it was a source of inspiration and a way to unwind from the rigors of academic life.',
+          "In my early years, I was an avid cricket enthusiast. However, as I grew older, my interests shifted towards football. Around 2010, I became an ardent fan of FC Barcelona. The team's style of play, the skills of players like Lionel Messi, and the spirit of the game captivated me. Football became more than just a hobby; it was a source of inspiration and a way to unwind from the rigors of academic life.",
       },
       {
         heading: 'A Significant Milestone',
         content:
-          'Our family lived in a rented place until 2012. Moving into our own house in early 2013 was a monumental moment for us. It symbolized stability and the realization of my parents’ hard work and dreams. The joy and pride we felt as a family during this time are memories I will always cherish.',
+          "Our family lived in a rented place until 2012. Moving into our own house in early 2013 was a monumental moment for us. It symbolized stability and the realization of my parents' hard work and dreams. The joy and pride we felt as a family during this time are memories I will always cherish.",
       },
       {
         heading: 'The Path to IIT',
