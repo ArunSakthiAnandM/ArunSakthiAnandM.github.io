@@ -108,8 +108,15 @@ export const blogs: Array<Blog> = [
   },
   {
     id: 2,
-    title: 'Day 1 @IIT Hyderabad',
-    description: [{ heading: 'Stay Tuned', content: 'Coming Soon' }],
+    title: 'Week 1 @IIT Hyderabad',
+    description: [
+      { heading: 'Day 1', content: 'Coming Soon' },
+      { heading: 'Orientation', content: '' },
+      { heading: 'Batchmates', content: '' },
+      { heading: 'Seniors', content: '' },
+      { heading: 'Hostel', content: '' },
+      { heading: '', content: '' },
+    ],
     conclusion: '',
     imagePaths: [],
   },

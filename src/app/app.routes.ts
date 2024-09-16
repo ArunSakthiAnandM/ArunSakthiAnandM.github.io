@@ -1,9 +1,10 @@
-import { Routes } from '@angular/router';
-import { HomeComponent } from './components/home/home.component';
+import { NgModule } from '@angular/core';
+import { Routes, RouterModule } from '@angular/router';
 import { BlogsComponent } from './components/blogs/blogs.component';
-import { TeachingsComponent } from './components/teachings/teachings.component';
 import { CertificationsComponent } from './components/certifications/certifications.component';
+import { HomeComponent } from './components/home/home.component';
 import { ProjectsComponent } from './components/projects/projects.component';
+import { TeachingsComponent } from './components/teachings/teachings.component';
 
 export const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -13,3 +14,9 @@ export const routes: Routes = [
   { path: 'certifications', component: CertificationsComponent },
   { path: 'projects', component: ProjectsComponent },
 ];
+
+@NgModule({
+  imports: [RouterModule.forRoot(routes, { useHash: true })],
+  exports: [RouterModule],
+})
+export class CustomRouterModule {}
