@@ -9,7 +9,6 @@ import { extras } from '../../../data/extra';
 
 @Component({
   selector: 'app-home',
-  standalone: true,
   imports: [AboutmeComponent, AboutComponent, WorkComponent, SkillsComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css',
