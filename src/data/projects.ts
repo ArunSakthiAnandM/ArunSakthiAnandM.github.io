@@ -2,6 +2,22 @@ import { Project } from './data.model';
 
 export const projects: Array<Project> = [
   {
+    id: 7,
+    title: 'Disruption Handler',
+    timeline: 'August 2025',
+    desc: 'AI based disruption handler built using Azure AI Foundry',
+    skills: ['Agentic AI', 'Multi-Agent Framework'],
+    link: '',
+  },
+  {
+    id: 6,
+    title: 'YouTube Clone',
+    timeline: 'March 2025',
+    desc: 'A full-stack video streaming app, handling upload, storage, and playback.',
+    skills: ['Spring Boot', 'Angular', 'MngoDB', 'AWS S3', 'OAuth2'],
+    link: 'https://github.com/ArunSakthiAnandM/youtube-clone-frontend',
+  },
+  {
     id: 5,
     title: 'TODO App',
     timeline: 'September 2023',
