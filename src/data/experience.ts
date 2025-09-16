@@ -8,6 +8,9 @@ export const experience: Array<Experience> = [
     end: 'Present',
     link: 'https://www.airindia.com/',
     desc: [
+      'Developed a Preference Management module, enabling users to customize notification settings across channels.',
+      'Architected push notification backend (Spring Boot + Firebase/APNs), replacing third-party vendors and cutting costs by 60%.',
+      'Built an internal notifications dashboard enabling non-tech analysts to publish campaigns, reducing turnaround time from hours to minutes.',
       'Migrated Air India website’s front-end from Angular 14 to Angular 18. Enhanced website performance by approximately 10% in Lighthouse reports and reduced bundle size by 20% by optimizing code, implementing efficient coding practices, and leveraging Angular 18’s advanced features',
     ],
   },
