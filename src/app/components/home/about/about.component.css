@@ -76,23 +76,27 @@
 }
 
 .designation {
-  font-size: clamp(14px, 2vw, 20px);
+  font-size: clamp(13px, 1.8vw, 18px);
   line-height: 1.6;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 12px;
+  gap: clamp(8px, 1.5vw, 16px);
   opacity: 0.95;
+  max-width: 100%;
+  padding: 0 16px;
 }
 
 .designation-point {
   display: inline-block;
-  padding: 8px 16px;
+  padding: clamp(6px, 1vw, 10px) clamp(12px, 2vw, 20px);
   background: rgba(255, 255, 255, 0.15);
   border-radius: 20px;
   backdrop-filter: blur(10px);
   transition: all 0.3s ease;
+  white-space: nowrap;
+  font-size: clamp(12px, 1.5vw, 16px);
 }
 
 .designation-point:hover {
@@ -154,21 +158,52 @@
   transform: translateY(5px) scale(1.1);
 }
 
+/* Tablet breakpoint */
+@media (max-width: 1024px) {
+  .designation {
+    gap: 10px;
+  }
+  
+  .designation-point {
+    font-size: 14px;
+  }
+}
+
+/* Mobile breakpoint */
 @media (max-width: 768px) {
   .about-container {
     padding: 32px 16px;
   }
   
   .about-banner-main {
-    gap: 24px;
+    gap: 20px;
+    padding: 0 8px;
   }
   
   .designation {
-    flex-direction: column;
     gap: 8px;
+    padding: 0 8px;
+  }
+  
+  .designation-point {
+    padding: 8px 14px;
+    font-size: 13px;
+  }
+}
+
+/* Small mobile breakpoint */
+@media (max-width: 480px) {
+  .designation {
+    gap: 6px;
   }
   
   .designation-point {
     padding: 6px 12px;
+    font-size: 12px;
+    border-radius: 16px;
+  }
+  
+  .name {
+    font-size: 32px;
   }
 }
