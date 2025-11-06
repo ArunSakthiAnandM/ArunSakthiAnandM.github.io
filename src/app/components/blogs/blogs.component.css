@@ -1,6 +1,8 @@
 .blogs-intro,
 .blogs-outro {
-  padding: 24px;
+  padding: 32px 24px;
+  color: var(--grey-dark);
+  line-height: 1.6;
 }
 
 .blogs-list {
@@ -12,28 +14,27 @@
 }
 
 .blog-item {
-  border-radius: 4px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
 }
 
 .blog-title {
-  padding: 12px;
-  border-radius: 4px;
+  padding: 16px 20px;
   background-color: var(--blue-normal);
-  color: var(--blue-light);
+  color: var(--white);
   cursor: pointer;
-  transition: 0.3s ease;
+  transition: background-color 0.2s ease;
 }
 .blog-title:hover {
-  color: var(--blue-dark);
+  background-color: var(--blue-dark);
 }
 
 .blog-content {
-  margin: 8px 0;
   display: flex;
   flex-direction: column;
   gap: 8px;
-  transition: 0.3s ease;
+  background-color: var(--white);
 }
 
 .hide {
@@ -56,8 +57,8 @@
 
 .description-point-content {
   color: var(--grey-dark);
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 15px;
+  line-height: 1.6;
 }
 
 .point-outro {

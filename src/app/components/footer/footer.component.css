@@ -1,8 +1,9 @@
 .footer-wrapper {
-  background-color: var(--blue-light);
+  background-color: var(--grey-dark);
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: var(--white);
 }
 
 @media (max-width: 768px) {
@@ -14,6 +15,7 @@
 
 .copyright-text {
   padding: 24px 8px;
+  color: var(--grey-light);
 }
 
 .footer-social {
@@ -26,9 +28,14 @@
   display: flex;
   gap: 4px;
   text-decoration: none;
-  color: var(--link-primary);
+  color: var(--blue-lighter);
   cursor: pointer;
   align-items: center;
+  transition: color 0.2s ease;
+}
+
+.social-anchor:hover {
+  color: var(--white);
 }
 .social-svg {
   height: 16px;
