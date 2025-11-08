@@ -9,4 +9,9 @@ import { blogs } from '../../../data/blogs';
 })
 export class BlogsComponent {
   itemsList = blogs;
+  expandedBlogs: boolean[] = [];
+
+  toggleBlog(index: number) {
+    this.expandedBlogs[index] = !this.expandedBlogs[index];
+  }
 }
