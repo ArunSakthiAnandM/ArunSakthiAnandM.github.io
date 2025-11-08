@@ -2,6 +2,28 @@ import { Project } from './data.model';
 
 export const projects: Array<Project> = [
   {
+    id: 9,
+    title: 'Interview Organiser',
+    timeline: 'November 2025',
+    desc: 'A full-stack application for scheduling and managing interviews with role-based access control',
+    skills: ['Spring Boot', 'Angular', 'PostgreSQL', 'JWT', 'Spring Security'],
+    link: 'https://github.com/ArunSakthiAnandM/interview-assistant-app',
+  },
+  {
+    id: 8,
+    title: 'Cyphering Backend',
+    timeline: 'October 2025',
+    desc: 'A scalable backend system implementing encryption and decryption services with secure API endpoints',
+    skills: [
+      'Spring Boot',
+      'Spring Security',
+      'JWT',
+      'PostgreSQL',
+      'RESTful APIs',
+    ],
+    link: 'https://github.com/ciphering-app/ciphering-backend-v1',
+  },
+  {
     id: 7,
     title: 'Disruption Handler',
     timeline: 'August 2025',

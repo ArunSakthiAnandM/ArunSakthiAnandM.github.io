@@ -1,64 +1,98 @@
-.projects-container {
-  width: calc(min(768px, 100vw - 16px));
-  margin: 24px auto;
+.projects-wrapper {
+  padding: 40px 8px;
   display: flex;
   flex-direction: column;
-  gap: 24px;
-  padding: 40px 0;
-}
-
-.project-container {
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-.title-container {
-  display: flex;
-  justify-content: space-between;
   align-items: center;
-  background-color: var(--blue-normal);
-  padding: 20px;
-  border-radius: 4px;
-  color: var(--blue-light);
-}
-
-.content-container {
   background-color: var(--white);
 }
 
-.project-desc {
-  padding: 12px 24px;
+.projects-header {
+  font-size: 36px;
+  color: var(--blue-normal);
+  margin-bottom: 24px;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  width: calc(min(768px, 100vw));
+}
+
+.project-element {
+  display: flex;
+  gap: 40px;
+  padding: 24px 48px;
+  border-bottom: 1px solid var(--grey-light);
+}
+
+.project-element:last-child {
+  border-bottom: none;
+}
+
+.project-element-container {
+  width: calc(min(100vw, 640px));
+}
+
+@media (max-width: 768px) {
+  .project-element {
+    padding: 24px 16px;
+    gap: 16px;
+  }
+}
+
+.project-icon {
+  height: 32px;
+  width: 32px;
+  fill: var(--blue-normal);
+  flex-shrink: 0;
+}
+
+.project-element-time {
+  font-size: 14px;
+  line-height: 32px;
+  font-style: italic;
+  color: var(--grey-medium);
+}
+
+.project-element-content {
+  padding: 2px;
+  border-radius: 4px;
+}
+
+.project-element-title {
+  font-size: 22px;
+  line-height: 150%;
+  color: var(--blue-normal);
+  text-decoration: none;
+  transition: color 0.2s ease;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+.project-element-title:hover {
+  color: var(--blue-dark);
+}
+
+.project-element-desc {
+  color: var(--grey-dark);
+  font-weight: 300;
+  line-height: 1.6;
+  margin-bottom: 12px;
 }
 
 .skill-container {
-  margin: 0 auto;
-  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
 }
 
 .project-skill {
   display: inline-block;
-  padding: 6px 12px;
-  margin: 4px 6px;
+  padding: 4px 12px;
   background-color: var(--blue-lighter);
   border-radius: 16px;
-  font-size: 13px;
+  font-size: 12px;
   color: var(--blue-dark);
-}
-
-.source-code {
-  display: block;
-  padding: 12px 24px;
-  width: fit-content;
-  margin: 16px auto;
-  text-decoration: none;
-  cursor: pointer;
-  color: var(--white);
-  background-color: var(--blue-normal);
-  border-radius: 6px;
-  transition: background-color 0.2s ease;
-}
-
-.source-code:hover {
-  background-color: var(--blue-dark);
+  font-weight: 400;
 }
