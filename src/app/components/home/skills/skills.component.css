@@ -3,42 +3,66 @@
   flex-direction: column;
   margin: 0 auto;
   background-color: var(--white);
-  padding: 24px 0;
+  padding: 40px 8px;
+  align-items: center;
 }
 
 .heading {
   font-size: 36px;
   align-self: center;
-  padding: 24px;
-  color: var(--grey-dark);
+  padding: 16px 24px 32px;
+  color: var(--blue-normal);
+  margin: 0;
 }
 
 .skills-container {
-  width: calc(min(768px, calc(100vw - 32px)));
+  width: calc(min(768px, 100vw));
   margin: 0 auto;
-  margin-bottom: 48px;
-  text-align: center;
+  padding: 0 48px;
+}
+
+@media (max-width: 768px) {
+  .skills-container {
+    padding: 0 16px;
+  }
+}
+
+.skill-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
 }
 
 .skills-title {
-  font-size: 24px;
+  font-size: 20px;
   font-style: italic;
   color: var(--blue-normal);
-  margin-bottom: 8px;
+  margin-bottom: 16px;
+  font-weight: 400;
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--blue-lighter);
 }
 
 .skill-set {
-  width: calc(min(768px, calc(100vw - 32px)));
-  margin: 0 auto;
-  margin-bottom: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 24px;
 }
 
 .skill {
   display: inline-block;
   padding: 8px 16px;
   background-color: var(--blue-lighter);
-  margin: 8px 4px;
   border-radius: 20px;
   color: var(--blue-dark);
   font-size: 14px;
+  transition: all 0.2s ease;
+  border: 1px solid transparent;
+}
+
+.skill:hover {
+  background-color: var(--blue-normal);
+  color: var(--white);
+  transform: translateY(-2px);
 }
