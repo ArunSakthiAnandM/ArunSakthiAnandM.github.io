@@ -8,10 +8,10 @@ export const experience: Array<Experience> = [
     end: 'Present',
     link: 'https://www.airindia.com/',
     desc: [
-      'Developed a Preference Management module, enabling users to customize notification settings across channels.',
+      'Developed Preference Management module, enabling users to customize notification settings across channels.',
       'Architected push notification backend (Spring Boot + Firebase/APNs), replacing third-party vendors and cutting costs by 60%.',
-      'Built an internal notifications dashboard enabling non-tech analysts to publish campaigns, reducing turnaround time from hours to minutes.',
-      'Migrated Air India website’s front-end from Angular 14 to Angular 18. Enhanced website performance by approximately 10% in Lighthouse reports and reduced bundle size by 20% by optimizing code, implementing efficient coding practices, and leveraging Angular 18’s advanced features',
+      'Built internal notifications dashboard enabling non-tech analysts to publish campaigns, reducing turnaround time from hours to minutes.',
+      'Migrated Air India website front-end from Angular 14 to Angular 18, enhancing performance by 10% in Lighthouse reports and reducing bundle size by 20%.',
     ],
   },
   {
@@ -21,8 +21,8 @@ export const experience: Array<Experience> = [
     end: 'June 2024',
     link: 'https://www.airindia.com/',
     desc: [
-      'Developed parts of search widget component for Air India’s homepage, utilizing StencilJS for component creation and AEM for deployment, enhancing site functionality and user search experience.',
-      'Developed the back-end for a report generator to assess the performance of Air India’s websites, utilizing Node.js for development and deploying the solution as an Azure Functions app to ensure scalability and efficient performance monitoring',
+      'Developed search widget component for Air India homepage using StencilJS and AEM, enhancing site functionality and user search experience.',
+      'Built back-end for report generator to assess Air India websites performance using Node.js, deployed as Azure Functions app for scalability.',
     ],
   },
   {
