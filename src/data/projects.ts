@@ -5,7 +5,7 @@ export const projects: Array<Project> = [
     id: 9,
     title: 'Interview Organiser',
     timeline: 'November 2025',
-    desc: 'A full-stack application for scheduling and managing interviews with role-based access control',
+    desc: 'A scalable interview management system using Spring Boot 3.5, Angular 20, and MongoDB',
     skills: ['Spring Boot', 'Angular', 'PostgreSQL', 'JWT', 'Spring Security'],
     link: 'https://github.com/ArunSakthiAnandM/interview-assistant-app',
   },

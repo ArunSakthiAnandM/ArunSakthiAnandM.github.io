@@ -8,10 +8,11 @@ export const experience: Array<Experience> = [
     end: 'Present',
     link: 'https://www.airindia.com/',
     desc: [
-      'Developed Preference Management module, enabling users to customize notification settings across channels.',
-      'Architected push notification backend (Spring Boot + Firebase/APNs), replacing third-party vendors and cutting costs by 60%.',
-      'Built internal notifications dashboard enabling non-tech analysts to publish campaigns, reducing turnaround time from hours to minutes.',
-      'Migrated Air India website front-end from Angular 14 to Angular 18, enhancing performance by 10% in Lighthouse reports and reducing bundle size by 20%.',
+      'Built a high-throughput, distributed push-notification microservice using Spring Boot, Firebase, APNs, achieving 3x lower latency and 60% infra cost reduction through non-blocking I/O, and batched message pipelines.',
+      'Re-architected the Preference Management System using PostgreSQL + Redis, replacing Couchbase and cutting infra spend from 1.6L to 85K while improving lookup performance by 30% via optimized data modeling and cache-first access patterns.',
+      'Designed a self-service Notification Dashboard, integrating backend APIs with secure RBAC and reducing campaign launch cycles from hours to minutes by removing direct DB operations.',
+      'Migrated core backend services during the Air India-Vistara integration, scaling systems to multi-terabyte datasets and ensuring consistency, zero-downtime rollouts, and reliability across distributed microservices.',
+      'Upgraded a legacy service from Java 11 to Java 21, eliminating redundant DB calls and adopting virtual threads to improve concurrency, boost throughput, and reduce system load under peak traffic.',
     ],
   },
   {
@@ -21,7 +22,7 @@ export const experience: Array<Experience> = [
     end: 'June 2024',
     link: 'https://www.airindia.com/',
     desc: [
-      'Developed search widget component for Air India homepage using StencilJS and AEM, enhancing site functionality and user search experience.',
+      'Enhanced the airline search experience by developing UI components (StencilJS + AngularJS) and leading the upgrade from Angular 13 to 18, improving stability, performance, and maintainability.',
       'Built back-end for report generator to assess Air India websites performance using Node.js, deployed as Azure Functions app for scalability.',
     ],
   },
