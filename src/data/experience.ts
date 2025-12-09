@@ -3,27 +3,28 @@ import { Experience } from './data.model';
 export const experience: Array<Experience> = [
   {
     title: 'Air India',
-    subTitle: 'Lead Engineer',
+    subTitle: 'Lead Engineer (Full-Stack)',
     start: 'June 2024',
     end: 'Present',
     link: 'https://www.airindia.com/',
     desc: [
-      'Built a high-throughput, distributed push-notification microservice using Spring Boot, Firebase, APNs, achieving 3x lower latency and 60% infra cost reduction through non-blocking I/O, and batched message pipelines.',
-      'Re-architected the Preference Management System using PostgreSQL + Redis, replacing Couchbase and cutting infra spend from 1.6L to 85K while improving lookup performance by 30% via optimized data modeling and cache-first access patterns.',
-      'Designed a self-service Notification Dashboard, integrating backend APIs with secure RBAC and reducing campaign launch cycles from hours to minutes by removing direct DB operations.',
-      'Migrated core backend services during the Air India-Vistara integration, scaling systems to multi-terabyte datasets and ensuring consistency, zero-downtime rollouts, and reliability across distributed microservices.',
-      'Upgraded a legacy service from Java 11 to Java 21, eliminating redundant DB calls and adopting virtual threads to improve concurrency, boost throughput, and reduce system load under peak traffic.',
+      'Modernized a mission-critical Spring Boot platform by upgrading from Java 8 to 21 and Spring 2 to 3, reducing p99 latency by around 40% and garbage collection pauses by 95% in production workloads.',
+      'Built a high throughput push notification microservice using asynchronous pipelines with FCM and APNs, replacing external vendors and achieving 60% infra cost savings while maintaining high reliability and scalability.',
+      "Led a team of four to redesign Air India's notification system into a decoupled Azure Service Bus-based architecture with multiple priority topics and dead-letter queues, improving throughput from 30 to 75 TPS.",
+      'Re-architected the backend and datastore of the Preference Management System by replacing Couchbase with MongoDB and Redis, reducing infrastructure costs from 1.6L to 85K, and built an Angular interface enabling users to update preferences through a streamlined UI.',
+      'Developed a Notification Dashboard using Angular, with secure RBAC and reducing campaign launch cycles from hours to minutes by eliminating direct database operations and enabling self-service workflows.',
     ],
   },
   {
     title: 'Air India',
-    subTitle: 'Graduate Engineer Trainee',
+    subTitle: 'Software Development Engineer Trainee',
     start: 'June 2023',
-    end: 'June 2024',
+    end: 'May 2024',
     link: 'https://www.airindia.com/',
     desc: [
-      'Enhanced the airline search experience by developing UI components (StencilJS + AngularJS) and leading the upgrade from Angular 13 to 18, improving stability, performance, and maintainability.',
-      'Built back-end for report generator to assess Air India websites performance using Node.js, deployed as Azure Functions app for scalability.',
+      'Received High Flyer Award for contributions in migrating core backend services during the Air India-Vistara integration, scaling systems to multi-terabyte datasets and ensuring consistency, zero-downtime rollouts, and reliability across distributed microservices.',
+      'Enhanced the airline search experience by developing UI components (StencilJS + Angular) and leading the upgrade from Angular 13 to 18, improving stability, performance, and maintainability.',
+      "Developed a serverless Web Performance Monitoring platform using Node.js (v16+), TypeScript, Azure Functions, PostgreSQL, and Playwright automation to track Core Web Vitals and deliver real-time performance analytics and competitive benchmarking for Air India's digital transformation.",
     ],
   },
   {
